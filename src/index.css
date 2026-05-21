@@ -24,10 +24,6 @@
     --card-bg: #1e293b;
   }
 
-  * {
-    @apply border-border;
-  }
-
   body {
     font-family: 'Plus Jakarta Sans', sans-serif;
     background-color: var(--bg);
@@ -110,3 +106,4 @@
   border-radius: 50%;
   animation: spin 0.8s linear infinite;
 }
+
