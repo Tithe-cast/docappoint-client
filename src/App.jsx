@@ -1,4 +1,4 @@
-mport { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Toaster } from 'react-hot-toast';
 import { AuthProvider } from './context/AuthContext';
 import { ThemeProvider } from './context/ThemeContext';
@@ -17,6 +17,7 @@ import DashboardOverview from './pages/Dashboard/DashboardOverview';
 import MyBookingsPage from './pages/Dashboard/MyBookingsPage';
 import MyProfilePage from './pages/Dashboard/MyProfilePage';
 import NotFoundPage from './pages/NotFoundPage';
+
 export default function App() {
   return (
     <BrowserRouter>
